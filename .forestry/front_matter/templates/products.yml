@@ -1,4 +1,9 @@
 ---
 label: products
 hide_body: false
-fields: []
+fields:
+- type: text
+  name: name
+  label: 产品名称
+  config:
+    required: true
